@@ -1,0 +1,16 @@
+body {
+  background-color: black;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}

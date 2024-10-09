@@ -1,0 +1,41 @@
+.hero-section {
+  margin-top: 60px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-header {
+  text-align: center;
+}
+
+.hero-description,
+.hero-button {
+  margin: 0 25% 0 45%;
+}
+
+.hero-button {
+  margin-top: 20px;
+}
+
+.hero-button-container {
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.hero-button-container span {
+  padding-right: 20px;
+  font-size: 18px;
+}
+
+.hero-image {
+  position: absolute;
+  bottom: 10%;
+  right: 55%;
+}
