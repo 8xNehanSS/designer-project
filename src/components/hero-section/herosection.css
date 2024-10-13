@@ -3,15 +3,26 @@
   color: white;
   justify-content: center;
   align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .hero-header {
   text-align: center;
 }
 
+.hero-description {
+  display: flex;
+  flex-direction: row;
+}
+
 .hero-description,
 .hero-button {
-  margin: 0 25% 0 45%;
+  max-width: 50%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
 }
 
 .hero-button {
@@ -32,10 +43,4 @@
 .hero-button-container span {
   padding-right: 20px;
   font-size: 18px;
-}
-
-.hero-image {
-  position: absolute;
-  bottom: 10%;
-  right: 55%;
 }

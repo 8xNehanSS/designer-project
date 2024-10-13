@@ -17,6 +17,9 @@ function HeroSection() {
         </h1>
       </div>
       <div className="hero-description">
+        <div className="hero-image">
+          <img src={heroImage1} alt="hero-image" />
+        </div>
         <span>
           The Instrument's a fresh design studio vibing out of London. We'll
           hook you up with killer branding, turn your design dreams into
@@ -28,9 +31,6 @@ function HeroSection() {
           <span>Work with us</span>
           <img src={arrowImage1} alt="arrow-image" />
         </div>
-      </div>
-      <div className="hero-image">
-        <img src={heroImage1} alt="hero-image" />
       </div>
     </div>
   );
