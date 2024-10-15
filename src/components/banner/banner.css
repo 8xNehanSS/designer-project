@@ -1,33 +1,52 @@
 /* App.css */
 .banner-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
   color: white;
-  width: 100%; /* Full width of the container */
-  overflow: hidden; /* Hide any overflow (no scrollbar) */
-  white-space: nowrap; /* Ensure text doesn’t wrap */ /* Background color for visibility */
-  padding: 10px 0; /* Padding around the container */
-  position: relative;
 }
 
 .banner-content {
-  display: inline-block;
-  z-index: 100;
-  white-space: nowrap; /* Keep content on a single line */
-  animation: scroll 20s linear infinite; /* Smooth infinite scroll */
-  position: absolute; /* Position it for smooth transition */
-}
-
-/* Keyframes for infinite scrolling */
-@keyframes scroll {
-  0% {
-    transform: translateX(100%); /* Start off the right */
-  }
-  100% {
-    transform: translateX(-100%); /* End off the left */
-  }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  height: 100%;
 }
 
 .banner-section p {
-  display: inline-block;
-  font-size: 3rem; /* Large font size */
+  font-family: "Instrument Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem; /* Large font size */
   margin-right: 50px;
+}
+
+.banner-footer p {
+  margin: 0;
+}
+
+.banner-capabilities {
+  margin-top: 50px;
+}
+
+.banner-capabilities h3 {
+  text-align: center;
+}
+
+.banner-capabilities-sub {
+  display: flex;
+  flex-direction: row;
+}
+
+.banner-capabilities-sub p {
+  margin: 0;
+  padding: 5px;
+  font-family: "Arial", serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.2rem; /* Medium font size */
+  margin-right: 20px;
 }

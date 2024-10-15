@@ -11,6 +11,8 @@ import labelImg3 from "./assets/images/image3.png";
 import labelImg4 from "./assets/images/image4.png";
 import IntroSection from "./components/intro-section/introsection";
 import TilesSection from "./components/tiles-section/tilessection";
+import Footer from "./components/footer/footer";
+import Credits from "./components/credits/credits";
 
 //text
 const text1 = "The future of Web3 on Bitcoin";
@@ -47,6 +49,12 @@ function Website() {
       </div>
       <div>
         <Banner />
+      </div>
+      <div className="footer-main">
+        <Footer />
+      </div>
+      <div className="credits-section">
+        <Credits />
       </div>
     </div>
   );

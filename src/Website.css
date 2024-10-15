@@ -32,3 +32,15 @@ body {
   align-items: center;
   justify-content: space-between;
 }
+
+.footer-main {
+  width: 100%;
+}
+
+.credits-section {
+  text-align: right;
+  position: fixed;
+  z-index: 100;
+  top: 10px;
+  right: 20px;
+}

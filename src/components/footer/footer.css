@@ -1,0 +1,56 @@
+.footer-section {
+  margin-top: 100px;
+  border-radius: 20px 20px 0px 0px;
+  background-image: linear-gradient(to bottom, #1b1b1b, #000000);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+  color: white;
+}
+
+.footer-image img {
+  height: 200px;
+  padding: 0;
+  position: relative;
+  bottom: 0px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px;
+  color: gray;
+}
+
+.arrow-footer {
+  margin-left: 10px;
+}
+
+.footer-section-sub {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.footer-text1 {
+  font-family: "Instrument Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3rem;
+}
+
+.footer-text2 {
+  font-family: "Calibri", serif;
+  font-weight: 400;
+  font-style: bold;
+  font-size: 3rem;
+}
+
+.footer-section-sub p {
+  margin-bottom: 0px;
+}
